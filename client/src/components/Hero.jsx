@@ -34,7 +34,7 @@ const onSearch = () => {
                 </div>
 
                 <div className='flex item-center'>
-                    <img className='h-4 sm:h-5' src={assets.location_icon} alt=""/>
+                    <img className='h-4 sm:h-6' src={assets.location_icon} alt=""/>
                     <input type="text" placeholder='Location'className='max-sm:text-xs p-2 rounded outline-none w-full'
                     ref={locationRef}/>
                 </div>
